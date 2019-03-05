@@ -1,0 +1,27 @@
+#jumbo {
+    background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+}
+
+#sad {
+    background-image: url(https://imgix.bustle.com/rehost/2016/9/13/9f51a962-746d-46bb-a6dd-502dea4d8931.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70);
+    padding-top: 20%;
+    padding-bottom: 40%;
+    background-size: cover;
+}
+
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#slide1 {
+    object-fit: cover;
+}
+
+#slide2 {
+    object-fit: cover;
+}
+
+#slide3 {
+    object-fit: cover;
+}

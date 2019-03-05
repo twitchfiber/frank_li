@@ -7,10 +7,11 @@ var app = express();
 
 app.engine("handlebars", handlebars.engine);
 app.set("view engine", "handlebars");
-//app.set("port", 1234);
 app.listen(port);
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(express.static(__dirname + "/public"));
 
 // Routing 
 app.get("/", function(req, res){
